@@ -6,7 +6,6 @@
   "scripts": {
     "start": "live-server --open=index.html",
     "dev": "live-server --open=index.html",
-    "build": "echo \"Static site - no build needed\"",
     "deploy": "netlify deploy --prod"
   },
   "keywords": [
