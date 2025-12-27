@@ -5,8 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "live-server --open=index.html",
-    "dev": "live-server --open=index.html",
-    "deploy": "netlify deploy --prod"
+    "dev": "live-server --open=index.html"
   },
   "keywords": [
     "portfolio",
@@ -18,7 +17,6 @@
   "author": "Frzsted",
   "license": "MIT",
   "devDependencies": {
-    "live-server": "^1.2.2",
-    "netlify-cli": "^17.0.0"
+    "live-server": "^1.2.2"
   }
 }
