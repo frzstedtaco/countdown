@@ -1,19 +1,20 @@
 {
-  "name": "frzsted-countdown",
+  "name": "countdown",
   "version": "1.0.0",
-  "description": "Countdown portfolio page for Frzsted",
+  "description": "A neon red countdown portfolio page.",
   "main": "index.html",
   "scripts": {
-    "start": "live-server --port=3000",
-    "dev": "live-server --port=3000",
-    "build": "echo 'No build step required'",
+    "start": "live-server --open=index.html",
+    "dev": "live-server --open=index.html",
+    "build": "echo 'Static site — no build needed'",
     "deploy": "netlify deploy --prod"
   },
   "keywords": [
-    "countdown",
     "portfolio",
-    "netlify",
-    "frzsted"
+    "countdown",
+    "neon",
+    "static-site",
+    "netlify"
   ],
   "author": "Frzsted",
   "license": "MIT",
