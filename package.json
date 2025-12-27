@@ -1,0 +1,24 @@
+{
+  "name": "frzsted-countdown",
+  "version": "1.0.0",
+  "description": "Countdown portfolio page for Frzsted",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "dev": "live-server --port=3000",
+    "build": "echo 'No build step required'",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "countdown",
+    "portfolio",
+    "netlify",
+    "frzsted"
+  ],
+  "author": "Frzsted",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "netlify-cli": "^17.0.0"
+  }
+}
